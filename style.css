@@ -446,7 +446,7 @@ body {
 }
 
 .category-nav-second {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto 50px;
   padding: 20px 0;
 }
@@ -454,7 +454,7 @@ body {
 .category-list-second {
   list-style: none;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   gap: 35px;
@@ -564,7 +564,7 @@ body {
 }
 
 .footer-content {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -655,7 +655,7 @@ body {
 }
 
 .footer-bottom {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   padding-top: 20px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
